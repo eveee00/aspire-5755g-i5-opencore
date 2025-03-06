@@ -1,19 +1,32 @@
 # aspire-5755g-i5-opencore
 WIP OpenCore files for the Acer Aspire 5755G i5 variant.
+
+## Disclaimer
+**DO NOT USE THIS IN A PRODUCTION ENVIRONMENT! THE LATEST MACOS THAT SUPPORTS THIS LAPTOP IS MACOS 10.13 HIGH SIERRA! THIS RELEASE IS 8 YEARS OLD AND DOESN'T RECIEVE SECURITY PATCHES ANYMORE!**
+### I CLAIM **ABSOLUTELY** NO RESPONSIBILITY IF YOU FUCK SOMETHING UP! **YOU** ARE CHOOSING TO INSTALL OUT-OF-DATE SOFTWARE ON **YOUR** DEVICE!
+
+If you want something modern for this laptop, consider going with [Linux Mint](https://www.linuxmint.com/) or [Fedora](https://fedoraproject.org/) (I recommend the [KDE Spin](https://fedoraproject.org/spins/kde)).
+
+## What DOESN'T work:
+- Sound
+- WiFi (Broadcom Chip)
+- CPU Power optimisations
+- Brightness Keys
+- eGPU
+
+## Screenshot
+
+![screen](https://github.com/user-attachments/assets/849bef32-b11c-407b-ba58-8eee5484c2ee)
+
+## Extra Info
+
+Guide to create the USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html
+
+Follow step 3 of [this guide](https://mrmacintosh.com/how-to-fix-the-recovery-server-could-not-be-contacted-error-high-sierra-recovery-is-still-online-but-broken/) if you get an error about a server connection in recovery.
+
+You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard to navigate the boot menu or you can wait for the timeout and it auto-selecting the USB.
+
+## Old README
 ~~**As of now (04.03.2025 - 02:50) this config fails to boot on my laptop. Something about a non-bootable floppy. I'll work on this sometime in the future**~~
 
 UPDATE: It boots now! (only through USB2.0). I'll upload a new release ~~after I get the keyboard and the recovery working.~~
-
-You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard and MacOS currently throws a kernel panic. OpenCore also refuses to load the SSDTs. (most likely cause of the panic). 
-
-This is the current OC log, if anyone is interested:
-```
-00:000 00:000 OC: Failed to drop ACPI 54445353 0000006D50757043 0 (1) - Not Found
-00:066 00:066 OC: Failed to drop ACPI 54445353 0074734930757043 0 (1) - Not Found
-00:181 00:115 OCA: Inserted ACPI table has length mismatch 229429 vs 557582858, ignoring
-00:248 00:066 OC: Failed to add ACPI SSDT-EC-LAPTOP.aml - Invalid Parameter
-00:365 00:117 OCA: Inserted ACPI table has length mismatch 229540 vs 557582858, ignoring
-00:432 00:066 OC: Failed to add ACPI SSDT-PNLF.aml - Invalid Parameter
-00:534 00:101 OCA: Inserted ACPI table has length mismatch 229263 vs 557582858, ignoring
-00:601 00:066 OC: Failed to add ACPI SSDT-XOSI.aml - Invalid Parameter
-```
