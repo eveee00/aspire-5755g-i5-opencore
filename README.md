@@ -10,10 +10,11 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 ## What DOESN'T work:
 - Sound
 - WiFi (Broadcom Chip)
-- CPU Power optimisations
+- ~~CPU Power optimizations~~ Dummy Power Management has to be set to true to avoid a kernel panic
 - Brightness Keys
 - eGPU
 - USB 3
+- Mouse and Keyboard in the boot picker
 
 ## Screenshot
 
