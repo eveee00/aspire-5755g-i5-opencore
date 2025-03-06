@@ -3,7 +3,7 @@ WIP OpenCore files for the Acer Aspire 5755G i5 variant.
 
 ## Disclaimer
 **DO NOT USE THIS IN A PRODUCTION ENVIRONMENT! THE LATEST MACOS THAT SUPPORTS THIS LAPTOP IS MACOS 10.13 HIGH SIERRA! THIS RELEASE IS *8 YEARS OLD* AND DOESN'T RECIEVE SECURITY PATCHES ANYMORE!**
-### I CLAIM *ABSOLUTELY NO* RESPONSIBILITY IF YOU FUCK SOMETHING UP! **YOU* ARE CHOOSING TO INSTALL OUT-OF-DATE SOFTWARE ONTO *YOUR* DEVICE!
+### I CLAIM *ABSOLUTELY NO* RESPONSIBILITY IF YOU FUCK SOMETHING UP! *YOU* ARE CHOOSING TO INSTALL OUT-OF-DATE SOFTWARE ONTO *YOUR* DEVICE!
 
 If you want something modern for this laptop, consider going with [Linux Mint](https://www.linuxmint.com/) or [Fedora](https://fedoraproject.org/) (I recommend the [KDE Spin](https://fedoraproject.org/spins/kde)).
 
