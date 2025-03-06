@@ -13,6 +13,7 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 - CPU Power optimisations
 - Brightness Keys
 - eGPU
+- USB 3
 
 ## Screenshot
 
@@ -25,6 +26,9 @@ Guide to create the USB: https://dortania.github.io/OpenCore-Install-Guide/insta
 Follow step 3 of [this guide](https://mrmacintosh.com/how-to-fix-the-recovery-server-could-not-be-contacted-error-high-sierra-recovery-is-still-online-but-broken/) if you get an error about a server connection in recovery.
 
 You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard to navigate the boot menu or you can wait for the timeout and it auto-selecting the USB.
+
+## Attributions
+are in [attribution.md](https://github.com/eveee00/aspire-5755g-i5-opencore/blob/main/attribution.md)
 
 ## Old README
 ~~**As of now (04.03.2025 - 02:50) this config fails to boot on my laptop. Something about a non-bootable floppy. I'll work on this sometime in the future**~~
