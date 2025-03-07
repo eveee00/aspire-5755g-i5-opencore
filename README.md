@@ -7,14 +7,17 @@ WIP OpenCore files for the Acer Aspire 5755G i5 variant.
 
 If you want something modern for this laptop, consider going with [Linux Mint](https://www.linuxmint.com/) or [Fedora](https://fedoraproject.org/) (I recommend the [KDE Spin](https://fedoraproject.org/spins/kde)).
 
+## What DIDN'T Work
+- Sound (ALCID 2, Microphone untested since my laptop's mic is broken)
+
 ## What DOESN'T work:
-- Sound
 - WiFi (Broadcom Chip)
 - ~~CPU Power optimizations~~ Dummy Power Management has to be set to true to avoid a kernel panic
 - Brightness Keys
 - eGPU
 - USB 3
 - Mouse and Keyboard in the boot picker
+- Battery Info (Tried with both ECEnabler and SMCBatteryManager)
 
 ## Screenshot
 
