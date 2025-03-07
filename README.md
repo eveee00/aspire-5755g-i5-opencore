@@ -14,7 +14,7 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 - WiFi (Broadcom Chip)
 - ~~CPU Power optimizations~~ Dummy Power Management has to be set to true to avoid a kernel panic
 - Brightness Keys
-- eGPU
+- eGPU (Will never work unless someone successfully dumps the vBIOS)
 - USB 3
 - Mouse and Keyboard in the boot picker
 - Battery Info (Tried with both ECEnabler and SMCBatteryManager)
