@@ -13,7 +13,7 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 ## What DOESN'T work:
 - WiFi (Broadcom Chip)
 - ~~CPU Power optimizations~~ Dummy Power Management has to be set to true to avoid a kernel panic
-- ~~Brightness Keys~~ (FN + F12 to decrease, FN + Pause to increase)
+- ~~Brightness Keys~~ (FN + F12 to decrease, FN + Pause to increase. On USB Keyboards it's Scroll lock to decrease and Pause to increase)
 - eGPU (Will never work unless someone successfully dumps the vBIOS)
 - USB 3
 - Mouse and Keyboard in the boot picker
