@@ -21,7 +21,7 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 
 ## Screenshot
 
-![screen](https://github.com/user-attachments/assets/849bef32-b11c-407b-ba58-8eee5484c2ee)
+![screen2](https://github.com/user-attachments/assets/34db68bb-d78f-4279-81d1-fc703b361d2a)
 
 ## Extra Info
 
