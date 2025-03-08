@@ -7,6 +7,13 @@ WIP OpenCore files for the Acer Aspire 5755G i5 variant.
 
 If you want something modern for this laptop, consider going with [Linux Mint](https://www.linuxmint.com/) or [Fedora](https://fedoraproject.org/) (I recommend the [KDE Spin](https://fedoraproject.org/spins/kde)).
 
+## Extra Info
+Guide to create the USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html
+
+Follow step 3 of [this guide](https://mrmacintosh.com/how-to-fix-the-recovery-server-could-not-be-contacted-error-high-sierra-recovery-is-still-online-but-broken/) if you get an error about a server connection in recovery.
+
+You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard to navigate the boot menu or you can wait for the timeout and it auto-selecting the USB.
+
 ## What DIDN'T Work
 - Sound (ALCID 2, Microphone untested since my laptop's mic is broken)
 
@@ -22,14 +29,6 @@ If you want something modern for this laptop, consider going with [Linux Mint](h
 ## Screenshot
 
 ![screen2](https://github.com/user-attachments/assets/34db68bb-d78f-4279-81d1-fc703b361d2a)
-
-## Extra Info
-
-Guide to create the USB: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html
-
-Follow step 3 of [this guide](https://mrmacintosh.com/how-to-fix-the-recovery-server-could-not-be-contacted-error-high-sierra-recovery-is-still-online-but-broken/) if you get an error about a server connection in recovery.
-
-You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard to navigate the boot menu or you can wait for the timeout and it auto-selecting the USB.
 
 ## What abou macOS 15?
 I tried, but couldn't get it to boot into the OOBE. It just keeps bootlooping after the phase 2 installation.
