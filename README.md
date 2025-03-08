@@ -31,6 +31,8 @@ Follow step 3 of [this guide](https://mrmacintosh.com/how-to-fix-the-recovery-se
 
 You need to follow the [diskpart + legacy install method](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#diskpart-method) to boot this. You need to use a USB keyboard to navigate the boot menu or you can wait for the timeout and it auto-selecting the USB.
 
+Note: I was able to boot MacOS 15, but ethernet refuses to work. I'll maybe try to get the WiFi card up and running or try to create an offline installer.
+
 ## Attributions
 are in [attribution.md](https://github.com/eveee00/aspire-5755g-i5-opencore/blob/main/attribution.md)
 
